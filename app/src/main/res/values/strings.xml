@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="first">\'OS\' computer abbreviation usually means ?</string>
+    <string name="second">Who developed Yahoo?</string>
+    <string name="third">What does VVVF stand for?</string>
+    <string name="fourth">\'.INI\' extension refers usually to what kind of file?</string>
+    <string name="fifth">
+
+Who co-founded Hotmail in 1996 and then sold the company to Microsoft?</string>
+    <string name="sixth"></string>
+    <string name="seventh"></string>
+    <string name="eight"></string>
+</resources>

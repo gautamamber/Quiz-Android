@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amber.quiz.Home">
+
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:textAlignment="center"
+       android:id="@+id/id"
+       android:padding="20dp">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/t1"
+           android:src="@drawable/quiz"
+           android:layout_centerHorizontal="true" />
+
+       <TextView
+           android:id="@+id/t2"
+           android:layout_below="@id/t1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="30dp"
+           android:layout_marginTop="20dp"
+           android:textColor="@color/colorPrimary"
+           android:layout_centerHorizontal="true"
+
+           android:text="Welcome to the quiz" />
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Start"
+           android:id="@+id/b1"
+           android:textSize="30dp"
+           android:layout_marginTop="40dp"
+           android:textColor="@color/colorAccent"
+           android:layout_below="@id/t2"
+           android:layout_centerHorizontal="true"
+           android:onClick="start"
+           tools:ignore="OnClick" />
+       <Button
+           android:id="@+id/b2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:text="About"
+           android:textSize="30dp"
+           android:onClick="about"
+
+           android:textColor="@color/colorAccent"
+           tools:ignore="OnClick" />
+
+
+   </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
